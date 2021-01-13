@@ -571,4 +571,3 @@ foreach(y RANGE ${image_min_y} ${image_max_y})
 
     file(APPEND "worker-${worker_index}.txt" "${row}\n")
 endforeach()
-
