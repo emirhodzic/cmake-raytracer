@@ -10,7 +10,7 @@ endif()
 if(NOT DEFINED num_procs)
     set(num_procs 2)
 endif()
-
+fdaf
 if(NOT DEFINED worker_index)
     message(STATUS "Launching ray tracer with ${num_procs} processes, ${image_width}x${image_height} image...")
 
